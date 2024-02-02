@@ -4,7 +4,7 @@
 
 ## Try it Live!
 
-Check out the live app [tenzies]()
+Check out the live app [tenzies](https://tenzies-game-sigma-gold.vercel.app/)
 
 ## How to Use
 
