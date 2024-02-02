@@ -21,12 +21,12 @@ Roll until add dice are the same. Click each die to freeze it at its current val
 1. Clone this repository.
 
     ```bash
-    git clone
+    git clone https://github.com/mahmoud-mohsen-dev/tenzies-game.git
     ```
 
 2. Navigate to the Project Directory:
     ```bash
-    cd
+    cd tenzies-game
     ```
 3. Install Dependencies:
 
@@ -34,9 +34,7 @@ Roll until add dice are the same. Click each die to freeze it at its current val
      npm install
     ```
 
-4. Development Server
-
-    ##### Start the Development Server:
+4. Start the Development Server:
 
     ```bash
     npm run dev
