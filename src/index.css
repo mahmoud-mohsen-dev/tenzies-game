@@ -1,0 +1,86 @@
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(152, 190, 212)
+}
+
+.tenzies{
+  background-color: #474a4d;
+  padding: 40px;
+  width: 450px;
+  
+}
+
+.tenzies__box {
+  border-radius: 10px;
+  background: #F5F5F5;
+  padding: 25px 35px;
+  text-align: center;
+  color: rgba(43, 40, 58, 1);
+  
+}
+
+.tenzies__box h2 {
+  font-size: 2.4rem;
+}
+
+.tenzies__box p {
+  font-size: 1.1rem;
+  color: #4A4E74;
+}
+
+.tenzies__numbers {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(2, 50px);
+  justify-content: space-between;
+  gap: 20px 0;
+}
+
+.tenzies__number {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(43, 40, 58, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0px 3.57447px 3.57447px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgba(89, 227, 145, 1);
+}
+
+.tenzies__box button {
+  margin-top: 30px;
+  background-color: rgba(80, 53, 255, 1);
+  color: whitesmoke;
+  width: 100px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.18);
+}
+
+.tenzies__box button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
